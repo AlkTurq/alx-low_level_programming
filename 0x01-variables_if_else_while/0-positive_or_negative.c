@@ -1,4 +1,4 @@
-#include <stdlib.h>
+0-positive_or_negative.c
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
@@ -15,11 +15,11 @@ int main(void)
 	/* your code goes there */
 
         if (n < 0)
-		printf("");
+		printf("%d is negative", n);
 	else if (n == 0)
-		printf("");
+		printf("%d is zero", n);
 	else
-		printf(""):
+		printf("%d is positive", n):
 
 	return (0);
 }
