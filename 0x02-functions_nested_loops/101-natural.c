@@ -13,7 +13,7 @@ int main(void)
 	{
 		if ((mult % 3) == 0 || (mult % 5) == 0)
 		{
-			sum += 1;
+			sum += mult;
 		}
 	}
 
