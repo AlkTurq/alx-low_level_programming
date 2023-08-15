@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - sum of natural numbers below 1024
