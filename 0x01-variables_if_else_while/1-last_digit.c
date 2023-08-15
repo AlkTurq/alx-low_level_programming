@@ -16,7 +16,7 @@ int main(void)
 
 	x = n % 10;
 
-	if (x < 6)
+	if (x < 6 && x != 0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0", n, x);
 	}
