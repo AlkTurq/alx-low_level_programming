@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
 /**
@@ -28,6 +29,8 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0", n, x);
 	}
+
+	printf("\n");
 
 	return (0);
 }

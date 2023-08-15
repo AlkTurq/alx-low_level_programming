@@ -9,12 +9,12 @@ int main(void)
 {
 	int mod16 = 0;
 
-	for (; mod16 <= 10; mod16++)
+	for (; mod16 < 10; mod16++)
 	{
 		putchar((mod16 % 10) + '0');
 	}
 
-	for (mod16 = 'a'; mod16 <= 'e'; mod16++)
+	for (mod16 = 'a'; mod16 <= 'f'; mod16++)
 	{
 		putchar(mod16);
 	}
